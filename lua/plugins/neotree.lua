@@ -13,7 +13,7 @@ return {
 
         {
           event = "file_opened",
-          handler = function(file_path)
+          handler = function()
             -- auto close
             -- vimc.cmd("Neotree close")
             -- OR
